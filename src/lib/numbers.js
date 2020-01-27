@@ -15,7 +15,7 @@ const divide = (a, b) => {
 };
 
 const power = (a, b) => {
-  return Math.pow(a, b);
+  return a ** b;
 };
 
 const round = a => {
@@ -35,7 +35,7 @@ const absolute = a => {
 };
 
 const quotient = (a, b) => {
-  return Math[a / b > 0 ? 'floor' : 'ceil'](a / b);
+  return parseInt(a / b);
 };
 
 const remainder = (a, b) => {
